@@ -1,0 +1,6 @@
+discord
+PyNaCl
+youtube_dl
+ffmpeg
+requests
+flask
