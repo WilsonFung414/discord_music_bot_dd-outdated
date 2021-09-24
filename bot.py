@@ -2,9 +2,9 @@ import discord
 from discord.ext import commands
 import os
 
-TOKEN = 'ODY1Njc3MDM3NTg1NTYzNjU4.YPHekQ.LaEHW7mBZq73rCZ90SPN27zMwfw' #Test bot
-# TOKEN = 'ODY0MTE4MzU0MTA0NjgwNDQ4.YOwy7g.snxEWVUz0gP_Y04xKyjbtn2xT7c'
-prefix = ";"
+# TOKEN = 'ODY1Njc3MDM3NTg1NTYzNjU4.YPHekQ.LaEHW7mBZq73rCZ90SPN27zMwfw' #Test bot
+TOKEN = 'ODY0MTE4MzU0MTA0NjgwNDQ4.YOwy7g.snxEWVUz0gP_Y04xKyjbtn2xT7c'
+prefix = "."
 intents = discord.Intents.all()
 intents.members = True
 
