@@ -15,6 +15,8 @@ class common(commands.Cog):
         await ctx.channel.purge(limit=amount+1)
         message = await ctx.send(f'Deleted {amount} messages')
         await message.delete(delay=5)
-
+    @commands.comand()
+    async def jp(self, ctx):
+        await ctx.send(f'あ　い　う　え　お\nか　き　く　け　こ\nさ　し　す　せ　そ\nた　ち　つ　て　と\nな　に　ぬ　ね　の\nは　ひ　ふ　へ　ほ\nま　み　む　め　も\nや　ゆ　よ\nら　り　る　れ　ろ\nわ　を\nん\nWah')
 def setup(client):
     client.add_cog(common(client))
